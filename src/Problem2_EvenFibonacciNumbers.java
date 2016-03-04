@@ -20,7 +20,6 @@ public class Problem2_EvenFibonacciNumbers {
                 sum+=num1;
             if (num2%2 == 0)
                 sum+=num2;
-           // System.out.print(num1 + " " + num2);
             num1+=num2;
             num2+=num1;
 
